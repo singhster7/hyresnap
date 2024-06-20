@@ -30,13 +30,16 @@
     top: 110%;
     right: 23%;
     background-color: white;
-    border: 1px solid #f4f4f4;
+    border: 2px solid #f4f4f4;
+    border-radius: 10px;
+
     display: none;
   }
   #suggestions div {
     padding: 5px 10px;
     border: 1px solid #96abe4;
-
+    border-radius: 10px;
+    
     cursor: pointer;
   }
   #suggestions div:hover {
@@ -45,3 +48,9 @@
 .input{
     position: relative;
 }
+.highlight {
+    /* background-color: rgb(86, 86, 228); */
+    border-radius: 3px;
+    color: #96abe4;
+
+  }
