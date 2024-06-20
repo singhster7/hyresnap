@@ -1,12 +1,20 @@
 .tag-container {
     display: flex;
     flex-wrap: wrap;
+
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+     /* Adjust this to fit your layout */
   }
   .tag {
-    background-color: #e0e0e0;
+    background-color: #5b57ce;
     padding: 5px 10px;
     margin: 5px;
-    border-radius: 3px;
+    border-radius: 25px;
   }
   .remove-tag {
     cursor: pointer;
@@ -14,6 +22,8 @@
   }
   #suggestions {
     position: absolute;
+    top: 8%;
+    right: 29%;
     background-color: white;
     border: 1px solid #ccc;
     display: none;
@@ -23,6 +33,5 @@
     cursor: pointer;
   }
   #suggestions div:hover {
-    background-color: #f0f0f0;
+    background-color: #96abe4;
   }
-  
