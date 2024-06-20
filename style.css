@@ -1,37 +1,47 @@
 .tag-container {
     display: flex;
     flex-wrap: wrap;
-
+    border: 1px solid #d6d0d0;
+    border-radius: 10px;
+    background-color: rgb(246, 240, 240);
+    margin-bottom: 10px;
   }
   .container {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
      /* Adjust this to fit your layout */
   }
   .tag {
-    background-color: #5b57ce;
+    background-color: #96abe4;
     padding: 5px 10px;
     margin: 5px;
-    border-radius: 25px;
+    border-radius: 10px;
   }
   .remove-tag {
     cursor: pointer;
     margin-left: 5px;
   }
   #suggestions {
+    width: 140px;
     position: absolute;
-    top: 8%;
-    right: 29%;
+    top: 110%;
+    right: 23%;
     background-color: white;
-    border: 1px solid #ccc;
+    border: 1px solid #f4f4f4;
     display: none;
   }
   #suggestions div {
     padding: 5px 10px;
+    border: 1px solid #96abe4;
+
     cursor: pointer;
   }
   #suggestions div:hover {
     background-color: #96abe4;
   }
+.input{
+    position: relative;
+}
