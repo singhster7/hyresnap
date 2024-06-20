@@ -18,9 +18,9 @@ To run the project locally:
 Clone this repository:
 ```bash
 
-git clone <repository-url>
+git clone https://github.com/singhster7/hyresnap
 ```
-Open the index.html file in your web browser.
+## Open the index.html file in your web browser.
 
 Start typing in the input field to see suggestions and create chips.
 
