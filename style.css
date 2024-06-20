@@ -1,0 +1,28 @@
+.tag-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .tag {
+    background-color: #e0e0e0;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 3px;
+  }
+  .remove-tag {
+    cursor: pointer;
+    margin-left: 5px;
+  }
+  #suggestions {
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    display: none;
+  }
+  #suggestions div {
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  #suggestions div:hover {
+    background-color: #f0f0f0;
+  }
+  
