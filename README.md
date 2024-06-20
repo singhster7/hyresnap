@@ -1,5 +1,5 @@
 # hyresnap assignment
-## Chips UI Example
+## Chips UI 
 This project demonstrates a simple user interface for creating chips (tags) based on user input, similar to the provided design. Chips are created dynamically and can be removed individually. The project also includes a popover for displaying suggestions and prevents adding duplicate chips.
 
 Features
@@ -16,11 +16,11 @@ Usage
 To run the project locally:
 
 Clone this repository:
+```bash
 
-bash
-Copy code
-git clone <repository-url>
-Open the index.html file in your web browser.
+git clone https://github.com/singhster7/hyresnap
+```
+## Open the index.html file in your web browser.
 
 Start typing in the input field to see suggestions and create chips.
 
