@@ -1,4 +1,4 @@
-# hyresnap assignment
+
 ## Chips UI 
 This project demonstrates a simple user interface for creating chips (tags) based on user input, similar to the provided design. Chips are created dynamically and can be removed individually. The project also includes a popover for displaying suggestions and prevents adding duplicate chips.
 
